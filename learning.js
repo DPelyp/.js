@@ -176,4 +176,26 @@
 
 // printBonus(dept1AverSales1, dept2AverSales1);
 
-console.log ('Push up repitition 1')
+// console.log ('Push up repitition 1')
+// console.log ('Push up repitition 2')
+// console.log ('Push up repitition 3')
+// console.log ('Push up repitition 4')
+// console.log ('Push up repitition 5')
+// console.log ('Push up repitition 6')
+// console.log ('Push up repitition 7')
+// console.log ('Push up repitition 8')
+// console.log ('Push up repitition 9')
+// console.log ('Push up repitition 10')
+
+// for (let rep = 1; rep <= 10; rep++){
+//     console.log (`Push up repitition' ${rep}`)
+// }
+
+// function learnJavaScript(a, b) {
+//     const fatherSon = a - b;
+//     const ageDiff = fatherSon * 2;
+//     const total = ageDiff - a; 
+//     console.log  (total);
+//   }
+
+//   learnJavaScript(58, 23)
