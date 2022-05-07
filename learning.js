@@ -175,3 +175,5 @@
 
 
 // printBonus(dept1AverSales1, dept2AverSales1);
+
+console.log ('Push up repitition 1')
