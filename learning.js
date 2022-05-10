@@ -299,3 +299,12 @@
 //     console.log(`Push ups repetition ${x}`);
 //     x++;
 // }
+
+// let diceNumber = Math.floor((Math.random() * 6) + 1);
+// console.log (`Dice number before loop ${diceNumber}`);
+
+// while (diceNumber !==6) {
+//     console.log(diceNumber);
+//     diceNumber = Math.floor((Math.random() * 6) + 1);
+//     console.log(`Dice number after random creation inside loop ${diceNumber}`);
+// }
