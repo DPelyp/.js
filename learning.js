@@ -1,34 +1,43 @@
-// function calculateTips (BILLS) { if (BILLS >= 20) {
-//     const calcTip = BILLS * 0.15;
-//     return calcTip;
-// } else if (BILLS < 20) {
-//     const calcTip2 = BILLS * 0.20;
-//     return calcTip2;
-// }
-// }
+function calculateTips (BILLS) { if (BILLS >= 20) {
+    const calcTip = BILLS * 0.15;
+    return calcTip;
+} else if (BILLS < 20) {
+    const calcTip2 = BILLS * 0.20;
+    return calcTip2;
+}
+}
 
-// const BILLS = [11, 20, 47];
-// console.log(BILLS);
+const BILLS = [11, 20, 47];
+console.log(BILLS);
 
-// const TIPS  = [calculateTips(BILLS[0]), calculateTips(BILLS[1]), calculateTips(BILLS[2])];
+const TIPS  = [calculateTips(BILLS[0]), calculateTips(BILLS[1]), calculateTips(BILLS[2])];
 
-// console.log(TIPS);
+console.log(TIPS);
 
-// const TOTAL_AMOUNT = [BILLS[0] + TIPS[0], BILLS[1] + TIPS[1], BILLS[2] + TIPS[2]]; 
-// console.log(TOTAL_AMOUNT);
+const TOTAL_AMOUNT = [BILLS[0] + TIPS[0], BILLS[1] + TIPS[1], BILLS[2] + TIPS[2]]; 
+console.log(TOTAL_AMOUNT);
 
-// const bills = [31, 95, 276, 540, 27, 205, 11, 1180, 96, 57];
-// const tips = [];
-// const total = [];
+const bills = [31, 95, 276, 540, 27, 205, 11, 1180, 96, 57];
+const tips = [];
+const total = [];
 
-// for (let i = 0; i <= bills.length; i++){
-//     const tip  = calculateTips(bills[i]);
-//     tips.push(tip);
-//     const totalBills = calculateTips(bills[i]) + bills[i];
-//     total.push(totalBills)
-// }
+for (let i = 0; i <= bills.length; i++){
+    const tip  = calculateTips(bills[i]);
+    tips.push(tip);
+    const totalBills = calculateTips(bills[i]) + bills[i];
+    total.push(totalBills)
+}
 
-// console.log (bills, tips, total)
+console.log (bills, tips, total)
+
+const arr =[];
+
+function calculateAverage (arr) {
+    let sum = 0;
+    for (let i = 0; i <= arr.length; sum++){
+
+    }
+}
 
 // console.log(Boolean(0), Boolean(undefined), Boolean(''), Boolean(null), Boolean(NaN));
 
@@ -112,10 +121,21 @@
 // youraObject = {
 //     name: 'YouRa',
 //     lastname: 'Allakhverdov',
-//     birthYear: 1975,
+//     birthYear: 1999,
 //     job: 'programming instructor',
-//     familyMembers: ['Irina', 'Michael', 'YouRa']
+//     familyMembers: ['Irina', 'Michael', 'YouRa'],
+//     hasDriverLicense : true,
+//     // calcAge : function (birthYear){
+//     //     return (2022 - birthYear)
+//     // }
+//     calcAge : function (birthYear){
+//         // console.log(this)
+//         return (2022 - this.birthYear)
+//     }
 //  };
+
+//  console.log(youraObject.calcAge(youraObject.birthYear))
+//  console.log(youraObject['calcAge'](youraObject.birthYear))
 
 // console.log(`${youraObject.name} has  ${youraObject.familyMembers.length} family members, and the first one is  ${youraObject.familyMembers[0]}`)
 
@@ -308,3 +328,4 @@
 //     diceNumber = Math.floor((Math.random() * 6) + 1);
 //     console.log(`Dice number after random creation inside loop ${diceNumber}`);
 // }
+
