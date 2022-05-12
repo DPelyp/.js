@@ -1,44 +1,46 @@
-function calculateTips (BILLS) { if (BILLS >= 20) {
-    const calcTip = BILLS * 0.15;
-    return calcTip;
-} else if (BILLS < 20) {
-    const calcTip2 = BILLS * 0.20;
-    return calcTip2;
-}
-}
+// function calculateTips (BILLS) { if (BILLS >= 20) {
+//     const calcTip = BILLS * 0.15;
+//     return calcTip;
+// } else if (BILLS < 20) {
+//     const calcTip2 = BILLS * 0.20;
+//     return calcTip2;
+// }
+// }
 
-const BILLS = [11, 20, 47];
-console.log(BILLS);
+// const BILLS = [11, 20, 47];
+// console.log(BILLS);
 
-const TIPS  = [calculateTips(BILLS[0]), calculateTips(BILLS[1]), calculateTips(BILLS[2])];
+// const TIPS  = [calculateTips(BILLS[0]), calculateTips(BILLS[1]), calculateTips(BILLS[2])];
 
-console.log(TIPS);
+// console.log(TIPS);
 
-const TOTAL_AMOUNT = [BILLS[0] + TIPS[0], BILLS[1] + TIPS[1], BILLS[2] + TIPS[2]]; 
-console.log(TOTAL_AMOUNT);
+// const TOTAL_AMOUNT = [BILLS[0] + TIPS[0], BILLS[1] + TIPS[1], BILLS[2] + TIPS[2]]; 
+// console.log(TOTAL_AMOUNT);
 
-const bills = [31, 95, 276, 540, 27, 205, 11, 1180, 96, 57];
-const tips = [];
-const total = [];
+// const bills = [31, 95, 276, 540, 27, 205, 11, 1180, 96, 57];
+// const tips = [];
+// const total = [];
 
-for (let i = 0; i <= bills.length; i++){
-    const tip  = calculateTips(bills[i]);
-    tips.push(tip);
-    const totalBills = calculateTips(bills[i]) + bills[i];
-    total.push(totalBills)
-}
+// for (let i = 0; i <= bills.length; i++){
+//     const tip  = calculateTips(bills[i]);
+//     tips.push(tip);
+//     const totalBills = calculateTips(bills[i]) + tips[i];
+//     total.push(totalBills)
+// }
 
-console.log (bills, tips, total)
+// console.log (bills, tips, total)
 
-const arr =[];
+// const arr =[];
 
-function calculateAverage (arr) {
-    let sum = 0;
-    for (let i = 0; i <= arr.length; sum++){
+//  calculateAverage = function(arr) {
+//     let sum = 0;
+//     for (let i = 0; i <= arr.length; sum++){
+//         sum = sum + arr[i];
+//     }
+//     console.log(sum)
+// }
 
-    }
-}
-
+// calculateAverage([1, 2, 3])
 // console.log(Boolean(0), Boolean(undefined), Boolean(''), Boolean(null), Boolean(NaN));
 
 // console.log(Boolean(32), Boolean([]), Boolean('Hello'), Boolean({}), Boolean(3.2));
