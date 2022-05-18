@@ -14,7 +14,7 @@
 
 // console.log(TIPS);
 
-// const TOTAL_AMOUNT = [BILLS[0] + TIPS[0], BILLS[1] + TIPS[1], BILLS[2] + TIPS[2]]; 
+// const TOTAL_AMOUNT = [BILLS[0] + TIPS[0], BILLS[1] + TIPS[1], BILLS[2] + TIPS[2]];
 // console.log(TOTAL_AMOUNT);
 
 // const bills = [31, 95, 276, 540, 27, 205, 11, 1180, 96, 57];
@@ -48,13 +48,12 @@
 // age = 5;
 // if (age > 0) {console.log("U are born!")} else if (age < 0) {console.log("WTF")}
 
-// let weight; 
+// let weight;
 // if (weight) {console.log("It exists!")} else {console.log("OK")}
 
 // console.log(true && true);
 // console.log(true && false);
 // console.log(false && false);
-
 
 // console.log(true || true);
 // console.log(true || false);
@@ -170,7 +169,6 @@
 //     return NewColor
 // }
 
-
 // function colorizer (item, color1, color2) {
 //     const color = colorMixer (color1, color2);
 //     const colorizedItem = `The ${item} is ${color}`;
@@ -185,7 +183,6 @@
 
 // const DEPT1_2Q = [50301, 21984, 19207];
 // const DEPT2_2Q = [72381, 41562, 29465];
-
 
 // function getAverage (a, b, c) {
 //     const averageSales = (a + b + c) / 3;
@@ -202,7 +199,7 @@
 // const dept2AverSales2 = getAverage(DEPT2_2Q[0],DEPT2_2Q[1],DEPT2_2Q[2]);
 
 // console.log(dept1AverSales1, dept2AverSales1, dept1AverSales2, dept2AverSales2)
-  
+
 // function printBonus(a, b) {
 //     let highAverDept = Math.max(a, b);
 //     let lowAverDept  = Math.min(a, b);
@@ -213,7 +210,6 @@
 //     console.log (`Dept 2 will get a bonus of ${bonus}`);
 // }
 // }
-
 
 // printBonus(dept1AverSales1, dept2AverSales1);
 // printBonus(dept1AverSales2, dept2AverSales2);
@@ -236,7 +232,7 @@
 // function learnJavaScript(a, b) {
 //     const fatherSon = a - b;
 //     const ageDiff = fatherSon * 2;
-//     const total = ageDiff - a; 
+//     const total = ageDiff - a;
 //     console.log  (total);
 //   };
 
@@ -312,7 +308,6 @@
 //     rep++;
 // }
 
-
 // let x = Math.floor((Math.random() * 100) + 1);
 
 // console.log(x)
@@ -330,4 +325,3 @@
 //     diceNumber = Math.floor((Math.random() * 6) + 1);
 //     console.log(`Dice number after random creation inside loop ${diceNumber}`);
 // }
-
